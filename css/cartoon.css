@@ -17,6 +17,10 @@ header img{
     padding-left: 0;
 }
 
+header p{
+    margin-top: 5px;
+}
+
 
 h1,h2{
 	font-family: 'Tourney', cursive;
@@ -44,8 +48,9 @@ p{
 
 body{ 
 	max-width:1600px;  
-	padding-top:0;
+	padding-top:0; 
 	font-family: 'Lato', sans-serif; 
+	background-color: navy;
 }
 
 img{
@@ -61,3 +66,13 @@ main{
 	max-width: 800px;
 	margin: 0 auto;
 }
+
+li{
+	font-size: 25px;
+	color: yellow;
+}
+
+li:link {
+  color: yellow;
+}
+
