@@ -5,6 +5,8 @@ h1, h2{
 header{
 	background-color: red; 
 	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 header img{
@@ -12,6 +14,7 @@ header img{
     width: 300px;
     height: 300px;
     border: 10px solid yellow;
+    padding-left: 0;
 }
 
 
@@ -25,6 +28,10 @@ h1{
 	font-size: 50px
 }
 
+h2{
+	color: darkred;
+}
+
 
 p{ 
 	font-size:25px; 
@@ -36,8 +43,7 @@ p{
 }
 
 body{ 
-	max-width:800px; 
-	margin:0; 
+	max-width:1600px;  
 	padding-top:0;
 	font-family: 'Lato', sans-serif; 
 }
@@ -45,4 +51,13 @@ body{
 img{
 	max-width: 100%;
 
+}
+
+footer{
+	padding-bottom: 10px;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
 }
