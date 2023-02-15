@@ -15,6 +15,7 @@ header img{
     height: 300px;
     border: 10px solid yellow;
     padding-left: 0;
+
 }
 
 header p{
@@ -29,11 +30,13 @@ h1,h2{
 
 h1{
 	color:yellow; 
-	font-size: 50px
+	font-size: 80px;
+	padding-bottom: 5px;
 }
 
 h2{
 	color: darkred;
+	font-size: 50px;
 }
 
 
@@ -48,9 +51,11 @@ p{
 
 body{ 
 	max-width:1600px;  
-	padding-top:0; 
 	font-family: 'Lato', sans-serif; 
 	background-color: navy;
+	margin: 0 auto;
+	padding: 20px;
+	line-height: 30px;
 }
 
 img{
@@ -62,17 +67,22 @@ footer{
 	padding-bottom: 10px;
 }
 
-main{
-	max-width: 800px;
-	margin: 0 auto;
-}
 
 li{
 	font-size: 25px;
 	color: yellow;
+	line-height: 40px;
 }
 
 li:link {
   color: yellow;
+
 }
 
+a{
+	color: yellow;
+}
+
+a:hover{
+	color: orange;
+}
